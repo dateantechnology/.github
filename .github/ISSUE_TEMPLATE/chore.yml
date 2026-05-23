@@ -1,0 +1,14 @@
+name: 🔧 Chore / Tech Debt
+description: Refactoring, dependency updates, or infrastructure work
+labels: ["chore"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What needs doing?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this needed?
